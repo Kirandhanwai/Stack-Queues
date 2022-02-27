@@ -1,8 +1,14 @@
 package com.blz.java;
 
 public class StackQueue {
-	public static void main(String[] args) {
-		System.out.println("Welcome to Stack Queue Program");
+	static LinkedList list = new LinkedList();
+
+	public void push(Object data) {
+		list.addFirst(data);
+	}
+
+	public void show() {
+		list.display();
 	}
 
 }
