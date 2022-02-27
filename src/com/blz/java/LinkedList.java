@@ -44,7 +44,9 @@ public class LinkedList {
 		if (head == null)
 			System.out.println("Nothing to delete..");
 		else {
-			head = head.ref;
+			while (head != null) {
+				head = head.ref;
+			}
 		}
 	}
 
